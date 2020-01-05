@@ -21,23 +21,23 @@ const Contact = () => <section id="contact">
   </div>
   <div className="box">
     <h3>Tecnologías</h3>
-    <span><i className="fab fa-html5 fa-2x"></i></span>
-    <span><i className="fab fa-css3-alt fa-2x"></i></span>
-    <span><i className="fab fa-js fa-2x"></i></span>
-    <span><i className="fab fa-react fa-2x"></i></span>
-    <span><i className="fab fa-vuejs fa-2x"></i></span>
-    <span><i className="fab fa-angular fa-2x"></i></span>
-    <span><i className="fab fa-node fa-2x"></i></span>
-    <span><i className="fab fa-npm fa-2x"></i></span>
-    <span><i className="fab fa-php fa-2x"></i></span>
-    <span><i className="fab fa-python fa-2x"></i></span>
-    <span><i className="fab fa-yarn fa-2x"></i></span>
-    <span><i className="fab fa-git-alt fa-2x"></i></span>
-    <span><i className="fab fa-github fa-2x"></i></span>
-    <span><i className="fab fa-digital-ocean fa-2x"></i></span>
-    <span><i className="fab fa-linode fa-2x"></i></span>
-    <span><i className="fab fa-aws fa-2x"></i></span>
-    <span><i className="fab fa-docker fa-2x"></i></span>
+    <span><i className="fab fa-html5 fa-2x"></i> </span>
+    <span><i className="fab fa-css3-alt fa-2x"></i> </span>
+    <span><i className="fab fa-js fa-2x"></i> </span>
+    <span><i className="fab fa-react fa-2x"></i> </span>
+    <span><i className="fab fa-vuejs fa-2x"></i> </span>
+    <span><i className="fab fa-angular fa-2x"></i> </span>
+    <span><i className="fab fa-node fa-2x"></i> </span>
+    <span><i className="fab fa-npm fa-2x"></i> </span>
+    <span><i className="fab fa-php fa-2x"></i> </span>
+    <span><i className="fab fa-python fa-2x"></i> </span>
+    <span><i className="fab fa-yarn fa-2x"></i> </span>
+    <span><i className="fab fa-git-alt fa-2x"></i> </span>
+    <span><i className="fab fa-github fa-2x"></i> </span>
+    <span><i className="fab fa-digital-ocean fa-2x"></i> </span>
+    <span><i className="fab fa-linode fa-2x"></i> </span>
+    <span><i className="fab fa-aws fa-2x"></i> </span>
+    <span><i className="fab fa-docker fa-2x"></i> </span>
   </div>
 
   {/* <div class="box">
