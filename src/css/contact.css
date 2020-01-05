@@ -1,0 +1,40 @@
+.box{
+  padding: 1em 1em;
+  color: var(--color-secondary);
+  background: var(--color-auxiliary);
+}
+
+.box:first-child {
+  background: var(--color-complementary);
+}
+
+table {
+  text-align: left;
+  width: 100%;
+}
+
+td {
+  width: 30%;
+  text-align: center;
+}
+
+
+@media(min-width: 600px) {
+  #contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  
+  .box {
+    height: 13rem;
+  }
+}
+
+
+@media(min-width:1200px) {
+  #contact {
+    max-width: 50%;
+    margin: auto;
+  }
+}
