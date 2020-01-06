@@ -17,7 +17,7 @@ const Services = () => <section id="services">
       alt=""/>
     <div className="card-content">
       <h3 className="card-title">Aplicaciones Móviles</h3>
-      <p>Desarrollamos aplicaciones nativas para Android y iOS, mejorando de forma significativa la experiencia del usuario en su dispositivo móvil.</p>
+      <p>Desarrollo de aplicaciones nativas para Android y iOS, mejorando de forma significativa la experiencia del usuario en su dispositivo móvil.</p>
     </div>
   </div>
   <div className="card">
