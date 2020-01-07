@@ -9,7 +9,6 @@ module.exports = {
     title: "Desarrollo Web y Marketing",
     description: "Nuestro estudio diseña y desarrolla sitios webs rápidos y con un marketing y SEO de alta calidad.",
     author: "Sergio Sanchez",
-    lang: "es",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
