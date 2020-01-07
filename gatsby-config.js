@@ -8,7 +8,8 @@ module.exports = {
   siteMetadata: {
     title: "Desarrollo Web y Marketing",
     description: "Nuestro estudio diseña y desarrolla sitios webs rápidos y con un marketing y SEO de alta calidad.",
-    url: "https://digitalrealm.es",
+    author: "Sergio Sanchez",
+    lang: "es",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
