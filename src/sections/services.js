@@ -1,35 +1,64 @@
 import React from "react"
+import { StaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
+const Services = () => (
 
-const Services = () => <section id="services">
+  <StaticQuery
+    query={graphql`
+      query {
+        desarrolloweb: file(relativePath: {eq: "desarrolloweb.jpeg"}) {
+          childImageSharp {
+            fluid (maxWidth: 500) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        },
+        aplicacionesmoviles: file(relativePath: {eq: "aplicacionesmoviles.jpg"}) {
+          childImageSharp {
+            fluid (maxWidth: 500) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        },
+        marketingonline: file(relativePath: {eq: "marketingonline.jpeg"}) {
+          childImageSharp {
+            fluid (maxWidth: 500) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `}
 
-  <div className="card">
-    <img
-      src="https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-      alt=""/>
-    <div className="card-content">
-      <h3 className="card-title">Desarrollo Web</h3>
-      <p>Diseño e implementación del front-end, desarrollo del back-end y bases de datos, configuración de servidores y contenedores.</p>
-    </div>
-  </div>
-  <div className="card">
-    <img src="https://images.pexels.com/photos/17663/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=650&w=940"
-      alt=""/>
-    <div className="card-content">
-      <h3 className="card-title">Aplicaciones Móviles</h3>
-      <p>Desarrollo de aplicaciones nativas para Android y iOS, mejorando de forma significativa la experiencia del usuario en su dispositivo móvil.</p>
-    </div>
-  </div>
-  <div className="card">
-    <img
-      src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-      alt=""/>
-    <div className="card-content">
-      <h3 className="card-title">Marketing Online</h3>
-      <p>Estudio de mercado y estrategias de marketing. Implementación SEO y posicionamiento en motores de búsqueda.</p>
-    </div>
-  </div>
-  
-  </section>
+    render={data => (
+      <section id="services">
 
-export default Services;
+        <div className="card">
+          <Img fluid={data.desarrolloweb.childImageSharp.fluid} alt="Desarrollo Web" />
+          <div className="card-content">
+            <h3 className="card-title">Desarrollo Web</h3>
+            <p>Diseño e implementación del front-end, desarrollo del back-end y bases de datos, configuración de servidores y contenedores.</p>
+          </div>
+        </div>
+        <div className="card">
+          <Img fluid={data.aplicacionesmoviles.childImageSharp.fluid} alt="Aplicaciones móviles" />
+          <div className="card-content">
+            <h3 className="card-title">Aplicaciones Móviles</h3>
+            <p>Desarrollo de aplicaciones nativas para Android y iOS, mejorando de forma significativa la experiencia del usuario en su dispositivo móvil.</p>
+          </div>
+        </div>
+        <div className="card">
+          <Img fluid={data.marketingonline.childImageSharp.fluid} alt="Marketing Online" />
+          <div className="card-content">
+            <h3 className="card-title">Marketing Online</h3>
+            <p>Estudio de mercado y estrategias de marketing. Implementación SEO y posicionamiento en motores de búsqueda.</p>
+          </div>
+        </div>
+
+      </section>
+    )}
+  />
+)
+export default Services
+
