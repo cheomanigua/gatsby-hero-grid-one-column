@@ -18,7 +18,7 @@ const Header = ({ className }) => (
     render={data => {
       const imageData = data.desktop.childImageSharp.fluid
       return (
-        <BackgroundImage
+        <BackgroundImage style={{zIndex:'10'}}
           Tag="header"
           className={className}
           fluid={imageData}
