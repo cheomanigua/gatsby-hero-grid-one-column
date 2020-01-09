@@ -16,7 +16,6 @@ const Layout = ({children}) => (
     <Helmet>
       <script src="https://use.fontawesome.com/88991bc059.js"></script>
       <script src="https://kit.fontawesome.com/ca56e255a4.js" crossorigin="anonymous"></script>
-      <script src="../../static/scripts.js"></script> 
     </Helmet>
     <Header />
     <main>
