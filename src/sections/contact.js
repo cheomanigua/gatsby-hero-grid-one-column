@@ -21,7 +21,7 @@ const Contact = () => <section id="contact">
   </div>
   <div className="box">
     <h3>Tecnologías</h3>
-    <span><i className="fab fa-html5 fa-2x"></i> </span>
+    {/* <span><i className="fab fa-html5 fa-2x"></i> </span>
     <span><i className="fab fa-css3-alt fa-2x"></i> </span>
     <span><i className="fab fa-js fa-2x"></i> </span>
     <span><i className="fab fa-react fa-2x"></i> </span>
@@ -37,7 +37,7 @@ const Contact = () => <section id="contact">
     <span><i className="fab fa-digital-ocean fa-2x"></i> </span>
     <span><i className="fab fa-linode fa-2x"></i> </span>
     <span><i className="fab fa-aws fa-2x"></i> </span>
-    <span><i className="fab fa-docker fa-2x"></i> </span>
+    <span><i className="fab fa-docker fa-2x"></i> </span> */}
   </div>
 
   {/* <div class="box">
