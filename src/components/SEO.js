@@ -81,7 +81,7 @@ import { StaticQuery, graphql } from "gatsby"
 // export default SEO
 
 
-const SEO = ({ title, description}) => (
+const SEO = ({ title, description, lang}) => (
   <StaticQuery
     query={query}
     render={({
@@ -89,17 +89,23 @@ const SEO = ({ title, description}) => (
         siteMetadata: {
           defaultTitle,
           defaultDescription,
+          defaultLang,
         },
       },
     }) => {
       const seo = {
         title: title || defaultTitle,
         description: description || defaultDescription,
+        lang: lang || defaultLang,
       }
 
       return (
         <>
-          <Helmet title={seo.title}>
+          <Helmet 
+            htmlAttributes={{
+              lang,
+            }}
+            title={seo.title}>
             <meta name="description" content={seo.description} />
             {seo.url && <meta property="og:url" content={seo.url} />}
             )}
@@ -119,13 +125,13 @@ export default SEO
 SEO.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
-  url: PropTypes.string,
+  lang: PropTypes.string,
 }
 
 SEO.defaultProps = {
   title: null,
   description: null,
-  url: null,
+  lang: `es`,
 }
 
 const query = graphql`
