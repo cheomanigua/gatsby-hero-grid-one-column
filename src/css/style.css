@@ -39,29 +39,6 @@ body {
   padding: 1em;
 }
 
-
-/* .anchor { 
-  padding-top: 4.9rem;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.anchor h1 {
-  padding: 10rem 5rem;
-  font-size: 4rem;
-  text-align: center;
-}
-
-.anchor h3 {
-  font-size: 2.5rem;
-  text-align: center;
-  font-weight: normal;
-  padding-bottom: 2rem;
-} */
-
 main {
   background: var(--color-secondary);
 }

@@ -18,18 +18,23 @@
   }
 
   .text {
-    /* flex: 2 50%; */
-    flex-grow: 2;
-    flex-basis: 50%;
+    /* flex: 2 40%; */
+    flex-grow: 1;
+    flex-basis: 40%;
     padding: 2rem 2rem;
   }
   
   .illustration {
     /* flex: 1 */
     flex-grow: 1;
-    padding: 2rem 2rem;
+    /* padding: 2rem 2rem; */
     max-width: 25rem;
   }
-}
 
+  Img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
 /* ABOUT SECTION END */
