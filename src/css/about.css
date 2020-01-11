@@ -1,6 +1,6 @@
 /* ABOUT SECTION START */
 
-@media(min-width: 600px) {
+@media(min-width: 40em) {
 
   .flyer {
     display: flex;
@@ -28,7 +28,7 @@
     /* flex: 1 */
     flex-grow: 1;
     /* padding: 2rem 2rem; */
-    max-width: 25rem;
+    min-width: 15rem;
   }
 
   Img {
