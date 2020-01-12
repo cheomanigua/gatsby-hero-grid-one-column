@@ -20,7 +20,7 @@ Perfect implementation for Landing Pages:
 
 ## Layout
 
-It uses a simple one column grid layout the the following structure:
+It uses a simple one column grid layout with the following structure:
 
     ├── SEO
     ├── Helmet
@@ -38,7 +38,7 @@ It uses a simple one column grid layout the the following structure:
     ├── Footer
 
 
-## 🧐 File Structure?
+## 🧐 File Structure
 
 A quick look at the top-level files and directories you'll see in this project.
 
