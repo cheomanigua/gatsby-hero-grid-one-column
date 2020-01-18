@@ -8,7 +8,7 @@ nav {
   /* min-height: 5rem; */
   width: 100%;
   flex-wrap: wrap;
-  padding-top: .4em;
+  padding: .45em 0;
 }
 
 #logo {
@@ -21,14 +21,14 @@ nav ul {
   /* width: 50%;
   list-style: none; */
   display: flex;
-  justify-content: space-around;
-  width: 40%;
+  justify-content: center;
+  width: 50%;
   list-style: none;
   flex-wrap: wrap;
 }
 
 nav li {
-  padding-bottom: 0.5rem;
+  padding: 0.4rem 0;
 }
 
 nav a {
@@ -44,16 +44,12 @@ nav a:hover {
 }
 
 @media(min-width: 600px) {
-  nav {
-    padding-bottom: .45em;
-  }
 
-  nav>ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  nav ul {
+    justify-content: flex-end; 
   }
 
   nav li {
-    padding-bottom: 0;
+    padding:0 0;
   }
 }
