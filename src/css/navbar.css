@@ -4,7 +4,6 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-left: auto;
   width: 100%;
   flex-wrap: wrap;
   padding: .45em 0;
