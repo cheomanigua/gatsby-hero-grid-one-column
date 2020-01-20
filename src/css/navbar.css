@@ -1,8 +1,6 @@
 nav {
   position: fixed;
   top: 0;
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
   padding: .45em 0;
 }
@@ -11,19 +9,10 @@ nav {
   text-transform: uppercase;
   letter-spacing: 0.4rem;  
   font-weight: bold;
-  flex: 1 1 100%;
 }
 
 nav ul {
-  display: flex;
-  flex: 1 1 100%;
-  flex-wrap: wrap;
   list-style: none;
-}
-
-nav li {
-  padding: 0.4rem 0;
-  flex: 1 1 100%;
 }
 
 nav a {
@@ -41,20 +30,14 @@ nav a:hover {
 @media(min-width: 600px) {
 
   nav {
+    display: flex;
     justify-content: center;
-  }
-  #logo {
-    flex: initial; 
+    align-items: center;
   }
 
   nav ul {
-    flex: initial; 
+    display: flex;
     justify-content: flex-end;
-    width: 50%;
-  }
-
-  nav li {
-    padding:0 0;
-    flex: initial; 
+    flex-basis: 50%;
   }
 }
