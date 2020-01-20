@@ -11,7 +11,7 @@
   --color-auxiliary: #333;
   --color-odd:  #eee;
   --color-shadow: rgba(0,0,0,0.2);
-  --vh: 70vh;
+  --vh: 100vh;
 }
 
 html {

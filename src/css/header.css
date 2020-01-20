@@ -32,3 +32,9 @@ header .bg-image {
   background: var(--color-secondary);
   color: var(--color-auxiliary);
 }
+
+@media(min-width: 600px) {
+  header h1, header h3 {
+    padding-bottom: 5rem;
+  }
+}
