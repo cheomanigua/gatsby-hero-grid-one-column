@@ -1,12 +1,6 @@
 /* ABOUT SECTION START */
 
-@media(min-width: 40em) {
-
-  .flyer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+@media(min-width: 600px) {
   
   .twoColumns {
     display: flex;
@@ -17,13 +11,13 @@
   }
 
   .text {
-    flex-basis: 50%;
+    flex: 1;
     padding: 2rem 2rem;
   }
   
   .illustration {
     padding: 2rem 2rem;
-    flex-basis: 100%;
+    flex: 2;
     min-width: 20rem;
     max-width: 25rem;
   }
