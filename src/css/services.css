@@ -24,3 +24,10 @@
       grid-gap: 1em;
   }
 }
+
+@media(min-width: 1200px) {
+  #services {
+    width: 70%;
+    margin: auto;
+  }
+}
