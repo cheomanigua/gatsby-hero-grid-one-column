@@ -30,14 +30,11 @@ body {
   text-align: center;
 }
 
-.wrapper {
+header {
   display: grid;
   grid-template-columns: repeat(1, 1fr); 
 }
 
-.wrapper > section {
-  padding: 1em;
-}
 
 main {
   background: var(--color-secondary);
@@ -78,7 +75,11 @@ ul {
 }
 
 .content-wrap {
-  margin: 10rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 1rem;
 }
 
 /****** FOOTER START ******/
