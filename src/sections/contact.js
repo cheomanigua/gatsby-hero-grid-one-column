@@ -1,4 +1,5 @@
 import React from "react"
+import {html, css, javascript, nodejs, npm, react, gatsby, graphql, git, github, netlify} from '../components/images'
 
 const Contact = () => <section id="contact">
 
@@ -6,21 +7,34 @@ const Contact = () => <section id="contact">
     <h3>Contacto</h3>
     <table>
       <tr>
-        <td><i className="fas fa-phone"></i></td>
+        <td>Móvil</td>
         <td>+3469696969</td>
       </tr>
       <tr>
-        <td><i className="fas fa-mobile-alt"></i></td>
+        <td>Fijo</td>
         <td>+3469696969</td>
       </tr>
       <tr>
-        <td><i className="far fa-envelope"></i></td>
+        <td>Email</td>
         <td>info@digitalrealm.es</td>
       </tr>
     </table>
   </div>
   <div className="box">
     <h3>Tecnologías</h3>
+    <div className="technologies">
+      <img src={html} alt="css"/>
+      <img src={css} alt="html"/>
+      <img src={javascript} alt="javascript"/>
+      <img src={nodejs} alt="nodejs"/>
+      <img src={npm} alt="npm"/>
+      <img src={react} alt="react"/>
+      <img src={gatsby} alt="gatsby"/>
+      <img src={graphql} alt="graphql"/>
+      <img src={git} alt="git"/>
+      <img src={github} alt="github"/>
+      <img src={netlify} alt="netlify"/>
+    </div>
     {/* <span><i className="fab fa-html5 fa-2x"></i> </span>
     <span><i className="fab fa-css3-alt fa-2x"></i> </span>
     <span><i className="fab fa-js fa-2x"></i> </span>

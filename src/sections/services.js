@@ -3,7 +3,6 @@ import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 const Services = () => (
-
   <StaticQuery
     query={graphql`
       query {
