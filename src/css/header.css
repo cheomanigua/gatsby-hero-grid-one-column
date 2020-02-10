@@ -1,6 +1,11 @@
 header {
   height: var(--vh);
   color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 1rem;
 
 }
 

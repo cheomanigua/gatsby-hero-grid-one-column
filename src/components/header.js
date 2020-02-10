@@ -33,11 +33,9 @@ const Header = ({ className }) => (
               </ul>
             </nav>
             <div className="bg-image"></div>
-            <div className="content-wrap">
               <h1>Desarrollo Web y Marketing</h1>
               <h3>Da visibilidad a tu empresa, negocio o proyecto con nuestros servicios</h3>
               <a href="#contact" className="btn">Contáctanos</a>
-            </div>
           </header>
         </BackgroundImage>
       )
