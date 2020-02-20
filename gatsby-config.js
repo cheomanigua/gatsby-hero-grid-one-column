@@ -6,6 +6,7 @@
 
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://www.example.com',
     title: "Desarrollo Web y Marketing",
     description: "Nuestro estudio diseña y desarrolla sitios webs rápidos y con un marketing y SEO de alta calidad.",
     author: "Sergio Sanchez",
@@ -19,6 +20,14 @@ module.exports = {
       options: {      
         path: `${__dirname}/src/images/`,
       } 
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.example.com',
+        sitemap: 'https://www.example.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
     },
   ],
 }
