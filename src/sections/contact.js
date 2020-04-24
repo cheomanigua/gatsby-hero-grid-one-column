@@ -23,8 +23,8 @@ const Contact = () => <section id="contact">
   <div className="box">
     <h3>Tecnologías</h3>
     <div className="technologies">
-      <img src={html} alt="css"/>
-      <img src={css} alt="html"/>
+      <img src={html} alt="html"/>
+      <img src={css} alt="css"/>
       <img src={javascript} alt="javascript"/>
       <img src={nodejs} alt="nodejs"/>
       <img src={npm} alt="npm"/>
